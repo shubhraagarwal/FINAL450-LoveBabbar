@@ -6,13 +6,9 @@ int main()
 {
     string str;
     cin >> str;
-    int low;
-    int high = str.length() - 1;
-    while (low <= high)
+    int length = str.length();
+    for (int i = length; i >= 0; i--)
     {
-        str = swap(str[low], str[high]);
-        low++;
-        high--;
+        cout << str[i];
     }
-    cout << str;
 }
