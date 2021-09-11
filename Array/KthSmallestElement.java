@@ -1,3 +1,4 @@
+//Code is correct but GFG is showing time limit exceeded
 import java.util.Scanner;
 
 public class KthSmallestElement {
